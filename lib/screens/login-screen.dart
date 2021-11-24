@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:taxi_ticket/screens/dashboard.dart';
+import 'all-tickets.dart';
 import 'screen.dart';
 
 class LoginPage extends StatefulWidget {
@@ -75,7 +76,7 @@ class _LoginPageState extends State<LoginPage> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => DashboardPage()));
+                              builder: (context) => ChatScreen()));
                     },
                     color: Color(0xffFECE2F),
                     shape: RoundedRectangleBorder(
